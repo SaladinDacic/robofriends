@@ -5,6 +5,9 @@ interface ICardListProps {
   robots: { id: string; name: string; email: string }[];
 }
 const CardList = ({ robots }: ICardListProps) => {
+  // if (true) {
+  //   throw Error("error");
+  // }
   return (
     <div>
       {robots.map((user, i) => {
